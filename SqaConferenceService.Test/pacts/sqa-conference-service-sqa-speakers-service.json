@@ -11,7 +11,8 @@
       "providerState": "There are speakers details available for speakers with id 1, 2 and 3",
       "request": {
         "method": "get",
-        "path": "/speakers"
+        "path": "/speakers",
+        "query": "id=1,2,3"
       },
       "response": {
         "status": 200,
@@ -21,20 +22,20 @@
         "body": [
           {
             "id": 1,
-            "name": "Henze",
-            "surname": "Alexander",
+            "name": "Alexander",
+            "surname": "Henze",
             "company": "MaibornWolff"
           },
           {
             "id": 2,
-            "name": "Nogens",
-            "surname": "Maik",
+            "name": "Maik",
+            "surname": "Nogens",
             "company": "MaibornWolff"
           },
           {
             "id": 3,
-            "name": "Basler",
-            "surname": "Joachim",
+            "name": "Joachim",
+            "surname": "Basler",
             "company": "MaibornWolff"
           }
         ]

@@ -1,10 +1,11 @@
-I, [2019-04-18T15:10:01.333329 #96050]  INFO -- : Registered expected interaction GET /speakers
-D, [2019-04-18T15:10:01.333605 #96050] DEBUG -- : {
+I, [2019-05-16T21:02:23.993364 #74374]  INFO -- : Registered expected interaction GET /speakers?id=1,2,3
+D, [2019-05-16T21:02:23.993698 #74374] DEBUG -- : {
   "description": "A request to retrieve information about the speakers",
   "providerState": "There are speakers details available for speakers with id 1, 2 and 3",
   "request": {
     "method": "get",
-    "path": "/speakers"
+    "path": "/speakers",
+    "query": "id=1,2,3"
   },
   "response": {
     "status": 200,
@@ -14,27 +15,27 @@ D, [2019-04-18T15:10:01.333605 #96050] DEBUG -- : {
     "body": [
       {
         "id": 1,
-        "name": "Henze",
-        "surname": "Alexander",
+        "name": "Alexander",
+        "surname": "Henze",
         "company": "MaibornWolff"
       },
       {
         "id": 2,
-        "name": "Nogens",
-        "surname": "Maik",
+        "name": "Maik",
+        "surname": "Nogens",
         "company": "MaibornWolff"
       },
       {
         "id": 3,
-        "name": "Basler",
-        "surname": "Joachim",
+        "name": "Joachim",
+        "surname": "Basler",
         "company": "MaibornWolff"
       }
     ]
   }
 }
-I, [2019-04-18T15:10:01.418400 #96050]  INFO -- : Received request GET /speakers?id=1,2,3
-D, [2019-04-18T15:10:01.418503 #96050] DEBUG -- : {
+I, [2019-05-16T21:02:24.087677 #74374]  INFO -- : Received request GET /speakers?id=1,2,3
+D, [2019-05-16T21:02:24.087789 #74374] DEBUG -- : {
   "path": "/speakers",
   "query": "id=1,2,3",
   "method": "get",
@@ -43,8 +44,8 @@ D, [2019-04-18T15:10:01.418503 #96050] DEBUG -- : {
     "Version": "HTTP/1.1"
   }
 }
-I, [2019-04-18T15:10:01.418694 #96050]  INFO -- : Found matching response for GET /speakers
-D, [2019-04-18T15:10:01.418795 #96050] DEBUG -- : {
+I, [2019-05-16T21:02:24.088039 #74374]  INFO -- : Found matching response for GET /speakers?id=1,2,3
+D, [2019-05-16T21:02:24.088156 #74374] DEBUG -- : {
   "status": 200,
   "headers": {
     "Content-Type": "application/json; charset=utf-8"
@@ -52,23 +53,23 @@ D, [2019-04-18T15:10:01.418795 #96050] DEBUG -- : {
   "body": [
     {
       "id": 1,
-      "name": "Henze",
-      "surname": "Alexander",
+      "name": "Alexander",
+      "surname": "Henze",
       "company": "MaibornWolff"
     },
     {
       "id": 2,
-      "name": "Nogens",
-      "surname": "Maik",
+      "name": "Maik",
+      "surname": "Nogens",
       "company": "MaibornWolff"
     },
     {
       "id": 3,
-      "name": "Basler",
-      "surname": "Joachim",
+      "name": "Joachim",
+      "surname": "Basler",
       "company": "MaibornWolff"
     }
   ]
 }
-I, [2019-04-18T15:10:01.566380 #96050]  INFO -- : Writing pact for sqa-speakers-service to /Users/alexanderhe/MWProjects/conferences/SQA_Minsk/SQA-Conference-Service/SqaConferenceService.Test/pacts/sqa-conference-service-sqa-speakers-service.json
-I, [2019-04-18T15:10:01.571605 #96050]  INFO -- : Cleared interactions for example ""
+I, [2019-05-16T21:02:24.399345 #74374]  INFO -- : Writing pact for sqa-speakers-service to /Users/alexanderhe/MWProjects/conferences/SQA_Minsk/SQA-Conference-Service/SqaConferenceService.Test/pacts/sqa-conference-service-sqa-speakers-service.json
+I, [2019-05-16T21:02:24.405381 #74374]  INFO -- : Cleared interactions for example ""

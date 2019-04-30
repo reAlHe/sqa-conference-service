@@ -28,9 +28,9 @@ namespace SqaConferenceService.Test.Integration
         [Fact]
         public async Task GetConferenceSpeakersSuccessfully()
         {
-            var speakerDetails1 = new Speaker(1, "Henze", "Alexander", "MaibornWolff");
-            var speakerDetails2 = new Speaker(2, "Nogens", "Maik", "MaibornWolff");
-            var speakerDetails3 = new Speaker(3, "Basler", "Joachim", "MaibornWolff");
+            var speakerDetails1 = new Speaker(1, "Alexander", "Henze", "MaibornWolff");
+            var speakerDetails2 = new Speaker(2, "Maik", "Nogens", "MaibornWolff");
+            var speakerDetails3 = new Speaker(3, "Joachim", "Basler", "MaibornWolff");
 
             var browser = new Browser(new SqaConferenceServiceBootstrapper());
             _sqaConferenceServiceIntegrationTestSetup.SpeakersServiceMock.Given("There are speakers details available for speakers with id 1, 2 and 3")
