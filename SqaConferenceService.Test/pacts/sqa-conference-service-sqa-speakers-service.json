@@ -1,0 +1,49 @@
+{
+  "consumer": {
+    "name": "sqa-conference-service"
+  },
+  "provider": {
+    "name": "sqa-speakers-service"
+  },
+  "interactions": [
+    {
+      "description": "A request to retrieve information about the speakers",
+      "providerState": "There are speakers details available for speakers with id 1, 2 and 3",
+      "request": {
+        "method": "get",
+        "path": "/speakers"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json; charset=utf-8"
+        },
+        "body": [
+          {
+            "id": 1,
+            "name": "Henze",
+            "surname": "Alexander",
+            "company": "MaibornWolff"
+          },
+          {
+            "id": 2,
+            "name": "Nogens",
+            "surname": "Maik",
+            "company": "MaibornWolff"
+          },
+          {
+            "id": 3,
+            "name": "Basler",
+            "surname": "Joachim",
+            "company": "MaibornWolff"
+          }
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  }
+}

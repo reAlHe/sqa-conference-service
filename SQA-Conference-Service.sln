@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqaConferenceService", "SqaConferenceService\SqaConferenceService.csproj", "{2FB6A5D6-6BD0-4CFA-8F44-2B135AB768CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqaConferenceService.Test", "SqaConferenceService.Test\SqaConferenceService.Test.csproj", "{FD5EA833-2ED7-49BC-BE51-180FBC64158D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FB6A5D6-6BD0-4CFA-8F44-2B135AB768CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FB6A5D6-6BD0-4CFA-8F44-2B135AB768CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FB6A5D6-6BD0-4CFA-8F44-2B135AB768CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FB6A5D6-6BD0-4CFA-8F44-2B135AB768CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD5EA833-2ED7-49BC-BE51-180FBC64158D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD5EA833-2ED7-49BC-BE51-180FBC64158D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD5EA833-2ED7-49BC-BE51-180FBC64158D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD5EA833-2ED7-49BC-BE51-180FBC64158D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
