@@ -1,5 +1,5 @@
-I, [2019-05-16T21:02:23.993364 #74374]  INFO -- : Registered expected interaction GET /speakers?id=1,2,3
-D, [2019-05-16T21:02:23.993698 #74374] DEBUG -- : {
+I, [2019-05-17T10:21:02.668174 #78151]  INFO -- : Registered expected interaction GET /speakers?id=1,2,3
+D, [2019-05-17T10:21:02.668501 #78151] DEBUG -- : {
   "description": "A request to retrieve information about the speakers",
   "providerState": "There are speakers details available for speakers with id 1, 2 and 3",
   "request": {
@@ -34,8 +34,8 @@ D, [2019-05-16T21:02:23.993698 #74374] DEBUG -- : {
     ]
   }
 }
-I, [2019-05-16T21:02:24.087677 #74374]  INFO -- : Received request GET /speakers?id=1,2,3
-D, [2019-05-16T21:02:24.087789 #74374] DEBUG -- : {
+I, [2019-05-17T10:21:02.774586 #78151]  INFO -- : Received request GET /speakers?id=1,2,3
+D, [2019-05-17T10:21:02.774688 #78151] DEBUG -- : {
   "path": "/speakers",
   "query": "id=1,2,3",
   "method": "get",
@@ -44,8 +44,8 @@ D, [2019-05-16T21:02:24.087789 #74374] DEBUG -- : {
     "Version": "HTTP/1.1"
   }
 }
-I, [2019-05-16T21:02:24.088039 #74374]  INFO -- : Found matching response for GET /speakers?id=1,2,3
-D, [2019-05-16T21:02:24.088156 #74374] DEBUG -- : {
+I, [2019-05-17T10:21:02.774881 #78151]  INFO -- : Found matching response for GET /speakers?id=1,2,3
+D, [2019-05-17T10:21:02.774995 #78151] DEBUG -- : {
   "status": 200,
   "headers": {
     "Content-Type": "application/json; charset=utf-8"
@@ -71,5 +71,5 @@ D, [2019-05-16T21:02:24.088156 #74374] DEBUG -- : {
     }
   ]
 }
-I, [2019-05-16T21:02:24.399345 #74374]  INFO -- : Writing pact for sqa-speakers-service to /Users/alexanderhe/MWProjects/conferences/SQA_Minsk/SQA-Conference-Service/SqaConferenceService.Test/pacts/sqa-conference-service-sqa-speakers-service.json
-I, [2019-05-16T21:02:24.405381 #74374]  INFO -- : Cleared interactions for example ""
+I, [2019-05-17T10:21:02.961790 #78151]  INFO -- : Writing pact for sqa-speakers-service to /Users/alexanderhe/MWProjects/conferences/SQA_Minsk/SQA-Conference-Service/SqaConferenceService.Test/pacts/sqa-conference-service-sqa-speakers-service.json
+I, [2019-05-17T10:21:02.970613 #78151]  INFO -- : Cleared interactions for example ""

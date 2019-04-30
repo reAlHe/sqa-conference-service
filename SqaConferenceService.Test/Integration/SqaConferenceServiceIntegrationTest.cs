@@ -63,18 +63,18 @@ namespace SqaConferenceService.Test.Integration
             
             body.Count.Should().Be(3);
             body[0]["id"].Value<string>().Should().Be("1");
-            body[0]["name"].Value<string>().Should().Be("Henze");
-            body[0]["surname"].Value<string>().Should().Be("Alexander");
+            body[0]["name"].Value<string>().Should().Be("Alexander");
+            body[0]["surname"].Value<string>().Should().Be("Henze");
             body[0]["company"].Value<string>().Should().Be("MaibornWolff");
             
             body[1]["id"].Value<string>().Should().Be("2");
-            body[1]["name"].Value<string>().Should().Be("Nogens");
-            body[1]["surname"].Value<string>().Should().Be("Maik");
+            body[1]["name"].Value<string>().Should().Be("Maik");
+            body[1]["surname"].Value<string>().Should().Be("Nogens");
             body[1]["company"].Value<string>().Should().Be("MaibornWolff");
             
             body[2]["id"].Value<string>().Should().Be("3");
-            body[2]["name"].Value<string>().Should().Be("Basler");
-            body[2]["surname"].Value<string>().Should().Be("Joachim");
+            body[2]["name"].Value<string>().Should().Be("Joachim");
+            body[2]["surname"].Value<string>().Should().Be("Basler");
             body[2]["company"].Value<string>().Should().Be("MaibornWolff");
         }
     }
